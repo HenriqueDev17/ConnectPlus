@@ -63,7 +63,7 @@
   },
   {
     "ContainingType": "ConnectPlus.WebAPI.Controllers.ContatoController",
-    "Method": "Atualizar",
+    "Method": "Put",
     "RelativePath": "api/Contato/{id}",
     "HttpMethod": "PUT",
     "IsController": true,

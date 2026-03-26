@@ -105,6 +105,7 @@ public class ContatoController : ControllerBase
         contatoBuscado.Nome = contatoAtualizado.Nome;
         contatoBuscado.FormaDeContato = contatoAtualizado.FormaDeContato;
         contatoBuscado.IdTipoContato = contatoAtualizado.IdTipoContato;
+        contatoBuscado.TipoDeContato = contatoAtualizado.TipoDeContato;
 
         //Upload de imagem
         if (contatoAtualizado.Imagem != null && contatoAtualizado.Imagem.Length > 0)
